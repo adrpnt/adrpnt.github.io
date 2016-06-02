@@ -1,21 +1,49 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+title: "Adriano Vasconcelos"
+description: "Meu Currículo"
 
 # Build settings
 markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Resume settings
+resume_avatar: "false"
+resume_name: "Adriano Pinto de Vasconcelos"
+resume_title: "Desenvolvimento Web e Mobile"
+resume_contact_email: "pntadr@gmail.com"
+
+# use "yes" to display the email contact button,
+# "no" to display an "I'm not looking for work" message,
+# or remove the resume_looking_for_work option entirely
+# to leave blank
+resume_looking_for_work: "yes"
+
+# Decide which sections to use
+# comment out to hide
+resume_section_experience: true
+resume_section_education: true
+# resume_section_projects: true
+resume_section_skills: true
+# resume_section_recognition: true
+# resume_section_links: true
+# resume_section_associations: true
+
+# Resume social links
+# uncomment the options you wish to display, and add your own URL
+resume_social_links:
+  resume_github_url: "https://github.com/adrpnt"
+  resume_twitter_url: "https://twitter.com/adrpnt"
+  resume_facebook_url: "https://www.facebook.com/adriano.vasconcelos.1612"
+  resume_linkedin_url: "https://br.linkedin.com/in/adriano-vasconcelos-662a1113"
+  # resume_dribbble_url: "https://dribbble.com/jag"
+  # resume_instagram_url: "insert your Instagram URL here"
+  # resume_website_url: "http://joelglovier.com"
+
+# Design settings
+resume_theme: default
+
+# Note: when editing locally, remember to restart
+# your Jekyll server when you edit this file. Changes
+# to _config.yml are only recognized when the server starts
